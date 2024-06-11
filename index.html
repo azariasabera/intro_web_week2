@@ -6,7 +6,7 @@
     <title>Database</title>
 </head>
 <body>
-    <table>
+    <table border="1" id="table-data">
         <thead>
             <tr><th>Usename</th><th>Email</th><th>Admin</th></tr>
         </thead>
@@ -17,5 +17,18 @@
             <tr><td>User-C</td><td>user_c@email.com</td><td>-</td></tr>
         </tbody>
     </table>
+
+    <form action="" method="GET">
+        <fieldset>
+            <input type="text" id="input-username" placeholder="input-username">
+            <br>
+            <input type="text" id="input-email" placeholder="input-email">
+            <br>
+            <p>Admin? <input type="checkbox" id="input-admin"></p>
+        </fieldset>
+        <!--<input type="submit" value="Submit" id="submit-data">-->
+    </form>
+    <button id="submit-data">Submit</button>
+    <script src="basic.js"></script>
 </body>
 </html>
